@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 9px 198px 153px 9px 50px;
+      grid-template-rows: 414px 9px 130px 10px 155px 9px 20px;
+    }
+
+    .first{
+      background-color: #E72F24;
+    }
+    .second{
+      background-color: #232629;
+
+    }
+    .third{
+      background-color: #F0F1EC;
+      grid-column-start: span 4;
+    }
+    .fourth{
+      background-color: #232629;
+      grid-column-start: span 6;
+      
+    }
+    .firth{
+      background-color: #F0F1EC;
+      grid-row: span 3;
+    }
+    .sixth{
+      background-color: #232629;
+      grid-row: span 5;
+    }
+    .seventh{
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      grid-row: span 3;
+    }
+    .eighth{
+      background-color: #232629; 
+      grid-row: span 5;
+    }
+    .ninth{
+      background-color: #004592;
+    }
+    .tenth{
+      background-color: #232629;
+      
+    }
+    .eleventh{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+    .twelveth{
+      background-color: #232629;
+      
+    }
+    .thirteenth{
+      background-color: #232629;
+      grid-column: span 2;
+    }
+    .fourteenth{
+      background-color: #F0F1EC;
+    }
+    .fifteenth{
+      background-color: #F9D01E;
+    }
+    .sixteenth{
+      background-color: #232629;
+    }
+
+    
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="first"> </div>
+    <div class="second"> </div>
+    <div class="third"> </div>
+    <div class="fourth"> </div>
+    <div class="firth"> </div>
+    <div class="sixth"> </div>
+    <div class="seventh"> </div>
+    <div class="eighth"> </div>
+    <div class="ninth"> </div>
+    <div class="tenth"> </div>
+    <div class="eleventh"> </div>
+    <div class="twelveth"> </div>
+    <div class="thirteenth"> </div>
+    <div class="fourteenth"> </div>
+    <div class="fifteenth"> </div>
+    <div class="sixteenth"> </div>
+
+
+  </div>
+</body>
+
+</html>
